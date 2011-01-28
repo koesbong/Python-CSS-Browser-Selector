@@ -1,3 +1,12 @@
+"""
+Python CSS Browser Selector v0.0.1
+Koes Bong (http://web.koesbong.com)
+http://web.koesbong.com/2011/01/28/python-css-browser-selector/
+License: http://creativecommons.org/licenses/by/2.5/
+Credits: This is a python port from Bastian Allgeier's PHP CSS Browser Selector: http://www.bastian-allgeier.de/css_browser_selector/, 
+         which is a port from Rafael Lima's original Javascript CSS Browser Selector: http://rafael.adm.br/css_browser_selector
+"""
+
 import re
 
 def get_ua(ua):
