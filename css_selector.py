@@ -51,6 +51,8 @@ def get_ua(ua):
             b.append(w + " " + s)
     elif ua.find(r"mozilla/") != -1:
         b.append(g)
+    elif ua.find(r"unknown"):
+        b.append("unknown")
     
     #platform
     if ua.find("j2me") != -1:
