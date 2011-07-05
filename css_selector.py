@@ -33,6 +33,8 @@ def get_ua(ua):
         b.append(g + " ff35")
     elif ua.find(r"firefox/3") != -1:
         b.append(g + " ff3")
+    elif ua.find(r"firefox/5") != -1:
+        b.append(g + " ff5")
     elif ua.find(r"gecko/") != -1:
         b.append(g)
     elif opera_matches is not None:
